@@ -3,10 +3,7 @@ import Rating from './Ratings';
 import { Media } from 'react-bootstrap';
 
 class Product extends Component {
-
-  constructor(props){
-    super(props);    
-  }
+ 
 
   render() { 
     return (
@@ -17,7 +14,7 @@ class Product extends Component {
                 height={64} 
                 className="mr-3"
                 src={this.props.data.imageUrl} 
-                alt="Image"
+              
             />
             <Media.Body>
                 <h5>{this.props.data.productName}</h5>
